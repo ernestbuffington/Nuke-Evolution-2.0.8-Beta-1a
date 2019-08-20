@@ -1,0 +1,701 @@
+/* Centrium-Shellz v4.0 - Style.css */
+
+bottom {
+z-index : 2;
+left : 0;
+width : 100%;
+position : absolute;
+top : 594px;
+height : 30px;
+text-align : center;}
+
+a:link {
+font-size : 11px;
+color : #0968aa;
+font-family : arial, helvetica, verdana, sans-serif;
+text-decoration : none;}
+
+a:visited {
+font-size : 11px;
+color : #0968aa;
+font-family : arial, helvetica, verdana, sans-serif;
+text-decoration : none;}
+
+a:active {
+font-size : 11px;
+color : #0968aa;
+font-family : arial, helvetica, verdana, sans-serif;
+text-decoration : none;}
+
+a:hover {
+font-size : 11px;
+color : #3babf5;
+font-family : arial, helvetica, verdana, sans-serif;
+text-decoration : none;}
+
+body {
+font-size : 11px;
+cursor : default;
+color : #ffffff;
+background-color : #1b384a;
+font-family : arial, helvetica, verdana, sans-serif;
+text-decoration : none;
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;}
+
+textarea {
+background-image: url(../../../themes/Centrium-Shellz/images/input.gif);
+background-repeat : repeat-x;
+background-color : #444647;
+border-top : 1px solid #2a2a2a;
+border-bottom : 1px solid #8a8a8a;
+border-left : 1px solid #2a2a2a;
+border-right : 1px solid #8a8a8a;
+font-size : 11px;
+color : #ffffff;}
+
+p {
+font-size : 11px;
+color : #ffffff;
+line-height : 1.4;
+font-family : arial, helvetica, verdana, sans-serif;
+text-decoration : none;}
+
+/* Changes colors for: Main Menu Block, Table Box, Story Box */
+table {
+font-size : 11px;
+color : #ffffff;
+font-family : arial, helvetica, verdana, sans-serif;
+text-decoration : none;}
+
+td.content {
+font-size : 11px;
+color : #ffffff;
+text-decoration : none;
+font-family : arial, helvetica, verdana, sans-serif;}
+
+td.extra {
+border-top : 0px solid #052e49;
+border-bottom : 0px solid #898989;
+border-left : 0px solid #052e49;
+border-right : 1px solid #898989;}
+
+hr {
+border-top : 1px solid #303030;
+border-bottom : 1px solid #787878;
+height : 2px;
+width : 100%;}
+
+ul {
+list-style-type : square;
+}
+
+h1 {
+font-weight : bold;
+font-size : 11px;
+color : #ffffff;
+font-family : arial, helvetica, verdana, sans-serif;
+letter-spacing : 0px;
+text-decoration : none;}
+
+.heading {
+font-weight : bold;
+font-size : 11px;
+color : #ffffff;
+font-family : Tahoma;
+letter-spacing : 0px;
+text-decoration : none;}
+
+.heading1 {
+font-weight : bold;
+font-size : 11px;
+color : #ffffff;
+font-family : Tahoma;
+letter-spacing : 0px;
+text-decoration : none;}
+
+.blocktitle {
+font-weight : bold;
+font-size : 11px;
+color : #d7d7d7;
+font-family : arial;
+letter-spacing : 0px;
+text-decoration : none;}
+
+.storytitle {
+font-weight : bold;
+font-size : 11px;
+color : #d7d7d7;
+font-family : arial;
+letter-spacing : 0px;
+text-decoration : none;}
+
+.lowernav	   { font-size: 11px; font-family: arial; color: #000000; text-decoration: none;}
+td.lowernav	   { font-size: 11px; font-family: arial; color: #000000; text-decoration: none;}
+a.lowernav	   { font-size: 11px; color: #000000; text-decoration: none;}
+a.lowernav:link    { font-size: 11px; text-decoration: none; color : #f000000; }
+a.lowernav:visited { font-size: 11px; text-decoration: none; color : #000000; }
+a.lowernav:hover   { font-size: 11px; color : #0968aa; text-decoration: none;}
+
+select {
+color : #ffffff;
+font-size : 11px;
+font-family : Arial, Helvetica, sans-serif;
+background-color : #303030;
+border-top : 1px solid #2a2a2a;
+border-bottom : 1px solid #8a8a8a;
+border-left : 1px solid #2a2a2a;
+border-right : 1px solid #8a8a8a;}
+
+/* Copyright and bottom info */
+.copyright {
+font-size : 10px;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+color : #ffffff;}
+
+a.copyright {
+font-size : 10px;
+color : #ffffff;
+text-decoration : none;
+font-family : Verdana, Arial, Helvetica, sans-serif;}
+
+a.copyright:link {
+font-size : 10px;
+color : #ffffff;
+text-decoration : none;
+font-family : Verdana, Arial, Helvetica, sans-serif;}
+
+a.copyright:active {
+font-size : 10px;
+color : #ffffff;
+text-decoration : none;
+font-family : Verdana, Arial, Helvetica, sans-serif;}
+
+a.copyright:visited {
+font-size : 10px;
+color : #ffffff;
+text-decoration : none;
+font-family : Verdana, Arial, Helvetica, sans-serif;}
+
+a.copyright:hover {
+font-size : 10px;
+color : #3babf5;
+text-decoration : none;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Footer Scrolling Text */
+.ftr { font-size : 11px; color : #cccccc; }
+.ftrmed { font-size : 11px; }
+.ftrsmall { font-size : 10px; }
+.ftr,.ftrmed,.ftrsmall { color : #cccccc; }
+a.ftr,a.genmed,a.ftrsmall { color: #cccccc; text-decoration: none; }
+a.ftr:hover,a.ftrmed:hover,a.ftrsmall:hover { color: #e7b451; text-decoration: none; }
+
+input {
+background-image: url(../../../themes/Centrium-Shellz/images/input.gif);
+background-repeat : repeat-x;
+background-color : #525252;
+border-top : 1px solid #2a2a2a;
+border-bottom : 1px solid #8a8a8a;
+border-left : 1px solid #2a2a2a;
+border-right : 1px solid #8a8a8a;
+font-size : 11px;
+color : #3babf5;}
+
+input.noborder {
+color : #ffffff;
+font : 11px Arial, Helvetica, sans-serif;
+border-top : 0px solid #ffffff;
+border-bottom : 0px solid #ffffff;
+border-left : 0px solid #ffffff;
+border-right : 0px solid #ffffff;}
+
+/* This is the border line & background colour round the entire page */
+.bodyline {
+background-color : #5c5c5c;
+border : 0px solid;
+border-color : #000000;}
+
+.tablein {
+border-top : 1px solid #4f4f4f;
+border-bottom : 1px solid #898989;
+border-left : 1px solid #4f4f4f;
+border-right : 1px solid #898989;}
+
+/* This is the outline round the main forum tables */
+.forumline {
+background : #000000;
+border-top : 0px solid #052e49;
+border-bottom : 0px solid #424258;
+border-left : 0px solid #052e49;
+border-right : 0px solid #424258;}
+
+.forumline2 {
+background-image: url(../../../themes/Centrium-Shellz/images/bar2.gif);
+background-repeat : repeat-x;
+background-color : #2b2b2b;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;}
+
+/* Main table cell colours and backgrounds */
+td.row1 {
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+padding-top: 6px;
+}
+td.row1cell {
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+}
+td.row1rt {
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 0px solid #052e49;
+border-right : 1px solid #052e49;
+}
+td.row1lt {
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 0px solid #052e49;
+}
+td.row1d {
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 0px solid #052e49;
+border-left : 0px solid #052e49;
+border-right : 1px solid #052e49;
+}
+td.row1u {
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 0px solid #052e49;
+border-right : 1px solid #052e49;
+}
+td.row2u {
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+}
+td.row2 {
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+padding-top: 6px;
+}
+
+/* row2 for bbcode Editor Images */
+td.row2bbcode {
+text-align:left;
+background-image: url(/themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+}
+/* End row2 for bbcode Editor Images */
+
+td.row3 {
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+padding-top: 6px;
+}
+
+/* Category Row Right */
+td.rowpic {
+background-image: url(../../../themes/Centrium-Shellz/images/catbar.gif);
+background-repeat: repeat-x;
+background-color : #2b2b2b;
+border-top : 1px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+}
+td.pic {
+color : #ffffff;
+font-size : 11px;
+font-weight : bold;
+height : 25px;
+background-image: url(../../../themes/Centrium-Shellz/images/bar3.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 1px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+}
+td.piclt {
+color : #ffffff;
+font-size : 11px;
+font-weight : bold;
+height : 25px;
+background-image: url(../../../themes/Centrium-Shellz/images/bar3.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 1px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 0px solid #052e49;
+}
+td.picrt {
+color : #ffffff;
+font-size : 11px;
+font-weight : bold;
+height : 25px;
+background-image: url(../../../themes/Centrium-Shellz/images/bar3.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 1px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 0px solid #052e49;
+border-right : 1px solid #052e49;
+}
+
+/* Recent Topics Row*/
+th {
+color : #ffffff;
+font-size : 11px;
+font-weight : bold;
+background-image: url(../../../themes/Centrium-Shellz/images/bar2.gif);
+background-repeat : repeat-x;
+background-color : #2b2b2b;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+height : 25px;
+}
+th.bar {
+color : #ffffff;
+font-size : 11px;
+font-weight : bold;
+height : 25px;
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 0px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+}
+
+/* Category Row Left */
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
+background-image: url(../../../themes/Centrium-Shellz/images/catbar.gif);
+background-repeat: repeat-x;
+background-color : #2b2b2b;
+border-top : 1px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+height : 28px;
+}
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+
+/* Recent Topics, Row1, Viewforum_Body.tpl */
+th.thHead, th.thSides, th.thTop, th.thLeft, th.thRight, th.thBottom, th.thCornerL, th.thCornerR {
+font-weight : bold;
+background-color : #2b2b2b;
+border-top : 1px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+}
+
+/* Forum_Body.tpl - Last Column */
+td.row3Right, td.spaceRow {
+height : 25px;
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 1px solid #052e49;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #052e49;
+border-right : 1px solid #052e49;
+}
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle, h1, h2 {
+font-weight : bold;
+font-size : 14px;
+font-family : Arial, Helvetica, sans-serif;
+text-decoration : none;
+line-height : 120%;
+color : #0968aa;
+}
+a.maintitle:link {
+text-decoration : none;
+color : #0968aa;
+font-size : 14px;
+}
+a.maintitle:visited {
+text-decoration : none;
+color : #0968aa;
+font-size : 14px;
+}
+a.maintitle:hover {
+text-decoration : none;
+color : #3babf5;
+font-size : 14px;
+}
+
+/* General text */
+.gen {
+font-size : 11px;
+color : #ffffff;
+}
+.genmed {
+font-size : 11px;
+}
+.gensmall {
+font-size : 10px;
+}
+.gen, .genmed, .gensmall {
+color : #ffffff;
+}
+a.gen, a.genmed, a.gensmall {
+color : #ffffff;
+text-decoration : none;
+}
+a.gen:hover, a.genmed:hover, a.gensmall:hover {
+color : #3babf5;
+text-decoration : none;
+}
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu {
+font-size : 11px;
+color : #ffffff;
+}
+a.mainmenu {
+text-decoration : none;
+color : #ffffff;
+}
+a.mainmenu:hover {
+text-decoration : none;
+color : #3babf5;
+}
+
+/* Forum category titles */
+.cattitle {
+font-weight : bold;
+font-size : 11px;
+letter-spacing : 0px;
+color : #3babf5;
+}
+a.cattitle {
+text-decoration : none;
+color : #3babf5;
+}
+a.cattitle:hover {
+text-decoration : none;
+color : #929292;
+}
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink {
+font-weight : bold;
+font-size : 11px;
+color : #ffffff;
+}
+a.forumlink {
+text-decoration : none;
+color : #ffffff;
+}
+a.forumlink:hover {
+text-decoration : none;
+color : #3babf5;
+}
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav {
+font-weight : bold;
+font-size : 11px;
+color : #ffffff;
+}
+a.nav {
+text-decoration : none;
+color : #ffffff;
+}
+a.nav:hover {
+text-decoration : none;
+color : #3babf5;
+}
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle {
+font-weight : bold;
+font-size : 11px;
+color : #ffffff;
+}
+a.topictitle:link {
+text-decoration : none;
+color : #ffffff;
+}
+a.topictitle:visited {
+text-decoration : none;
+color : #ffffff;
+}
+a.topictitle:hover {
+text-decoration : none;
+color : #3babf5;
+}
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name {
+font-size : 11px;
+color : #ffffff;
+}
+
+/* Location, number of posts, post date etc */
+.postdetails {
+font-size : 10px;
+color : #ffffff;
+}
+
+/* The content of the posts (body of text) */
+.postbody {
+font-size : 11px;
+color : #ffffff;
+}
+a.postlink:link {
+text-decoration : none;
+color : #ffffff;
+}
+a.postlink:visited {
+text-decoration : none;
+color : #ffffff;
+}
+a.postlink:hover {
+text-decoration : none;
+color : #3babf5;
+}
+
+.quote {
+background-image: url(../../../themes/Centrium-Shellz/images/input.gif);
+background-repeat : repeat-x;
+background-color : #444647;
+border-top : 1px solid #2a2a2a;
+border-bottom : 1px solid #8a8a8a;
+border-left : 1px solid #2a2a2a;
+border-right : 1px solid #8a8a8a;
+font-size : 11px;
+color : #3babf5;}
+
+.code {
+background-image: url(../../../themes/Centrium-Shellz/images/input.gif);
+background-repeat : repeat-x;
+background-color : #444647;
+border-top : 1px solid #2a2a2a;
+border-bottom : 1px solid #8a8a8a;
+border-left : 1px solid #2a2a2a;
+border-right : 1px solid #8a8a8a;
+font-size : 11px;
+color : #202020;}
+
+input.sub {
+color : #ffffff;
+font-size : 11px;
+font-family : Arial, Helvetica, sans-serif;
+background-image: url(../../../themes/Centrium-Shellz/images/input.gif);
+background-repeat : repeat-x;
+background-color : #444647;
+border-top : 0px solid #4b4b4b;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #4b4b4b;
+border-right : 1px solid #052e49;}
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+color : #ffffff;
+font-size : 11px;
+font-family : Arial, Helvetica, sans-serif;
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 0px solid #4b4b4b;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #4b4b4b;
+border-right : 1px solid #052e49;}
+
+/* The main submit button option */
+input.mainoption {
+color : #3babf5;
+font-size : 11px;
+font-family : Arial, Helvetica, sans-serif;
+background-image: url(../../../themes/Centrium-Shellz/images/bar2.gif);
+background-repeat : repeat-x;
+background-color : #2b2b2b;
+border-top : 0px solid #4b4b4b;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #4b4b4b;
+border-right : 1px solid #052e49;}
+
+/* None-bold submit button */
+input.liteoption {
+color : #3babf5;
+font-size : 11px;
+font-family : Arial, Helvetica, sans-serif;
+background-image: url(../../../themes/Centrium-Shellz/images/bar2.gif);
+background-repeat : repeat-x;
+background-color : #2b2b2b;
+border-top : 0px solid #4b4b4b;
+border-bottom : 1px solid #052e49;
+border-left : 1px solid #4b4b4b;
+border-right : 1px solid #052e49;}
+
+/* Centrium-Shellz v4.0 - Style.css */
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)*/
+.helpline {
+background-image: url(../../../themes/Centrium-Shellz/images/bar.gif);
+background-repeat : repeat-x;
+background-color : #133B54;
+border-top : 1px solid #2a2a2a;
+border-bottom : 1px solid #8a8a8a;
+border-left : 1px solid #2a2a2a;
+border-right : 1px solid #8a8a8a;
+font-size : 11px;
+color : #3babf5;
+}

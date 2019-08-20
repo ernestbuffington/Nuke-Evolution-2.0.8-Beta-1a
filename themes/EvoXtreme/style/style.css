@@ -1,0 +1,833 @@
+/* EvoXtreme Stylesheet */
+
+body {
+	background: #f5f5f5;
+	color: #000000;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+}
+
+a:link, a:active, a:visited {
+	color: #256a8e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #359cd2;
+}
+
+img {
+	border: 0px;
+}
+
+#big_wrap {
+	margin: 0 auto;
+	border-left: #2d526f 1px solid;
+	border-right: #2d526f 1px solid;
+}
+
+#header_wrap {
+	background: url('../../../themes/EvoXtreme/images/hd_stretch.png') repeat-x;
+	height: 143px;
+}
+
+#header_logo {
+	background: url('../../../themes/EvoXtreme/images/logo.png') no-repeat;
+	width: 399px;
+	height: inherit;
+	position: absolute;
+}
+
+#header_nav {
+	margin-right: 10px;
+	float: right;
+}
+
+#header_nav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header_nav li {
+	cursor: pointer;
+	float: left;
+}
+
+#header_nav li a {
+	background-image: url('../../../themes/EvoXtreme/images/nav_button.png');
+	height: 22px;
+	width: 99px;
+	float: left;
+	line-height: 1.6em;
+	font-size: 12px;
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	outline: 0px;
+}
+
+#header_nav li a:hover {
+	color: #cccccc;
+}
+
+/* Hide from IE5-Mac \*/
+#header_nav li a {
+	float: none;
+}
+/* End hide */
+
+#header_nav li.nav_left a {
+	background-image: url('../../../themes/EvoXtreme/images/nav_left.png');
+}
+
+#header_nav li.nav_right a {
+	background-image: url('../../../themes/EvoXtreme/images/nav_right.png');
+	width: 100px;
+}
+
+#header_post {
+	background: url('../../../themes/EvoXtreme/images/post_header.png') repeat-x;
+	height: 124px;
+}
+
+#welcome_wrap {
+	width: 262px;
+	float: left;
+	position: relative;
+	margin-top: 11px;
+}
+
+#welcome_wrap div.wtop {
+	background: url('../../../themes/EvoXtreme/images/welcome.gif');
+	width: inherit;
+	height: 37px;
+}
+
+#welcome_wrap div.wbody {
+	background: url('../../../themes/EvoXtreme/images/welcome_box.gif');
+	width: inherit;
+	height: 52px;
+}
+
+div.wbody div {
+	padding: 2px 20px 0px 20px;
+}
+
+#welcome_wrap div.wbtm {
+	background: url('../../../themes/EvoXtreme/images/welcome_btm.gif');
+	width: inherit;
+	height: 16px;
+}
+
+#download_wrap {
+	float: right;
+	width: 286px;
+	margin-top: 18px;
+}
+
+#download_wrap div.dtop {
+	background: url('../../../themes/EvoXtreme/images/hdmessage.gif');
+	width: inherit;
+	height: 28px;
+}
+
+#download_wrap div.dbody {
+	background: transparent;
+	width: inherit;
+	height: 50px;
+	white-space: normal;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#body_wrap {
+	width: 100%;
+	height: 100%;
+	margin-left: -1px;
+	border-left: #2d526f 1px solid;
+	border-right: #2d526f 1px solid;
+	float: left;
+	position: relative;
+}
+
+#blocks_left_wrap {
+	width: 195px;
+	float: left;
+}
+
+#center_wrap {
+	position: relative;
+	margin-left: 195px;
+	margin-right: 195px;
+}
+
+#center_wrap_left {
+	position: relative;
+	margin-left: 195px;
+}
+
+#center_wrap_right {
+	position: relative;
+	margin-right: 195px;
+}
+
+#center_wrap_full {
+	position: relative;
+}
+
+#blocks_right_wrap {
+	width: 195px;
+	float: right;
+}
+
+.blocks_title {
+	background: url('../../../themes/EvoXtreme/images/blocks_01.gif');
+	width: inherit;
+	height: 47px;
+	line-height: 4.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.blocks_body {
+	background: url('../../../themes/EvoXtreme/images/blocks_02.gif') repeat-y;
+	padding: 2px 15px;
+}
+
+.blocks_footer {
+	background: url('../../../themes/EvoXtreme/images/blocks_03.gif');
+	width: inherit;
+	height: 16px;
+}
+
+.tables_hd_wrap {
+	height: 22px;
+	width: 100%;
+}
+
+.tables_hd_left {
+	background: url('../../../themes/EvoXtreme/images/tables_01.gif') no-repeat;
+	width: 38px;
+	height: inherit;
+	float: left;
+}
+
+.tables_hd_stretch {
+	background: url('../../../themes/EvoXtreme/images/tables_02.gif') repeat-x;
+	height: inherit;
+	margin: 0 38px;
+}
+
+.tables_hd_right {
+	background: url('../../../themes/EvoXtreme/images/tables_03.gif') no-repeat;
+	width: 38px;
+	height: inherit;
+	float: right;
+}
+
+.tables_bd_wrap {
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+.tables_bd_wrap h1, h2, h3, h4, h5, h6, ul, p, hr {
+	margin: 0px;
+}
+
+.tables_bd_left {
+	background: url('../../../themes/EvoXtreme/images/tables_04.gif') repeat-y;
+	width: 17px;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+}
+
+.tables_bd_stretch {
+	background: #f8f7f7;
+	margin: 0 17px;
+	white-space: normal;
+}
+
+.tables_bd_right {
+	background: url('../../../themes/EvoXtreme/images/tables_06.gif') repeat-y;
+	width: 17px;
+	height: 100%;
+	right: 0px;
+	position: absolute;
+}
+
+.tables_ft_wrap {
+	height: 22px;
+	width: 100%;
+}
+
+.tables_ft_left {
+	background: url('../../../themes/EvoXtreme/images/tables_07.gif') no-repeat;
+	width: 38px;
+	height: inherit;
+	float: left;
+}
+
+.tables_ft_stretch {
+	background: url('../../../themes/EvoXtreme/images/tables_08.gif') repeat-x;
+	height: inherit;
+	margin: 0 38px;
+}
+
+.tables_ft_right {
+	background: url('../../../themes/EvoXtreme/images/tables_09.gif') no-repeat;
+	width: 38px;
+	height: inherit;
+	float: right;
+}
+
+.news_hd_wrap {
+	height: 47px;
+	width: 100%;
+}
+
+.news_hd_left {
+	background: url('../../../themes/EvoXtreme/images/news_01.gif') no-repeat;
+	width: 60px;
+	height: inherit;
+	float: left;
+}
+
+.news_hd_stretch {
+	background: url('../../../themes/EvoXtreme/images/news_02.gif') repeat-x;
+	height: inherit;
+	margin: 0 44px 0 60px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 4.4em;
+}
+
+.news_hd_right {
+	background: url('../../../themes/EvoXtreme/images/news_03.gif') no-repeat;
+	width: 44px;
+	height: inherit;
+	float: right;
+}
+
+.news_bd_wrap {
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+.news_bd_left {
+	background: url('../../../themes/EvoXtreme/images/news_04.gif') repeat-y;
+	width: 16px;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+}
+
+.news_bd_stretch {
+	background: #f8f7f7;
+	margin: 0 16px;
+	white-space: normal;
+}
+
+.news_bd_stretch div.ntext {
+	height: auto;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px #cccccc solid;
+}
+
+.news_bd_stretch h1, h2, h3, h4, h5, h6, ul, p, hr {
+	margin: 0px;
+}
+
+.news_bd_right {
+	background: url('../../../themes/EvoXtreme/images/news_06.gif') repeat-y;
+	width: 16px;
+	height: 100%;
+	right: 0px;
+	position: absolute;
+}
+
+.news_ft_wrap {
+	height: 29px;
+	width: 100%;
+}
+
+.news_ft_left {
+	background: url('../../../themes/EvoXtreme/images/news_07.gif') no-repeat;
+	width: 44px;
+	height: inherit;
+	float: left;
+}
+
+.news_ft_stretch {
+	background: url('../../../themes/EvoXtreme/images/news_08.gif') repeat-x;
+	height: inherit;
+	margin: 0 44px;
+}
+
+.news_ft_right {
+	background: url('../../../themes/EvoXtreme/images/news_09.gif') no-repeat;
+	width: 44px;
+	height: inherit;
+	float: right;
+}
+
+#footer_wrap {
+	background: url('../../../themes/EvoXtreme/images/footer_bg.png');
+	height: 180px;
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-left: -1px;
+	border-left: #494949 1px solid;
+	border-right: #494949 1px solid;
+	text-align: center;
+}
+
+#footer_wrap div.copyrights_img {
+	background: transparent url('../../../themes/EvoXtreme/images/copyright.png') no-repeat;
+	width: 368px;
+	height: 5px;
+	position: relative;
+	bottom: -1px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+#footer_wrap div.fcopyrights {
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #FFFFFF;
+}
+
+div.fcopyrights a:link { color: #359cd2; }
+div.fcopyrights a:active { color: #359cd2; }
+div.fcopyrights a:visited { color: #359cd2; }
+div.fcopyrights a:hover { text-decoration: underline; }
+
+textarea {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+p {
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+/* Changes colors for: Main Menu Block, Table Box, Story Box */
+table {
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+/* Changes color for: Story Box - Post By Line */
+td.content {
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+td.extra {
+	border-top: #131313 0px solid; 
+	border-bottom: #898989 0px solid; 
+	border-left: #131313 0px solid; 
+	border-right: #898989 0px solid;
+}
+
+hr {
+	background: #787878;
+	height: 1px;
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+ul {
+	list-style-type: square;
+	padding-bottom: 5px;
+}
+
+.center { text-align: center; }
+.justify { text-align: justify; }
+.right { text-align: right; }
+
+h1 {
+	letter-spacing: 2px;
+	font-size: 13px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.heading {
+	font-weight: bold; 
+	font-size: 11px; 
+	color: #ffffff; 
+	font-family: tahoma; 
+	letter-spacing: 0px; 
+	text-decoration: none;
+}
+
+.heading1 {
+	font-weight: bold; 
+	font-size: 11px; 
+	color: #ffffff; 
+	font-family: tahoma; 
+	letter-spacing: 0px; 
+	text-decoration: none;
+}
+
+.blocktitle {
+	font-weight: bold; 
+	font-size: 11px; 
+	color: #000000; 
+	font-family: arial; 
+	letter-spacing: 0px; 
+	text-decoration: none;
+}
+
+.storytitle {
+	font-weight: bold; 
+	font-size: 11px; 
+	color: #000000; 
+	font-family: arial; 
+	letter-spacing: 0px; 
+	text-decoration: none;
+}
+
+select {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+/* Copyright and bottom info */
+.copyright { font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000;}
+a.copyright { font-size: 10px; color: #ffffff; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.copyright:link { font-size: 10px; color: #000000; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.copyright:active { font-size: 10px; color: #000000; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.copyright:visited { font-size: 10px; color: #000000; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+input {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+input.noborder {
+	color: #ffffff;
+	font: 11px arial,helvetica,sans-serif;
+	border-top: #ffffff 0px solid; 
+	border-bottom: #ffffff 0px solid; 
+	border-left: #ffffff 0px solid; 
+	border-right: #ffffff 0px solid;
+}
+
+
+/* This is the border line & background colour round the entire page */
+.bodyline { 
+	background-color: #5c5c5c; 
+	border:0px solid; 
+	border-color:#000000;
+}
+
+.tablein {
+	border-top: #4f4f4f 1px solid; 
+	border-bottom: #898989 1px solid; 
+	border-left: #4f4f4f 1px solid; 
+	border-right: #898989 1px solid;
+}
+
+/* This is the outline round the main forum tables */
+.forumline { 
+	background: #BEBEBE;
+	border: #cccccc 0px solid;
+}
+
+.forumline2	{ 
+	height: 25px;
+	background: #BEBEBE;
+	border: #cccccc 1px solid;
+}
+
+/* Main table cell colours and backgrounds */
+td.row1 {
+	background: #E0E0E0;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px 1px 0px;
+	height: 28px;
+	padding: 4px;
+}
+
+td.row1pic {
+	height: 24px;
+	color: #000000; 
+	background: #cccccc url(../../../themes/EvoXtreme/images/bar2.gif);
+	border: #cccccc 1px solid;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
+
+td.attachheader {
+	height: 25px;
+	font-size: 11px;
+	font-weight: normal;
+	border-color: #000000;
+	background-color: #eaebeb;
+
+}
+
+td.row2 {
+	background-color : #E0E0E0;
+	padding: 4px;
+	font-size: 10px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+
+}
+
+td.row3 {
+	background-color: #eaeaea;
+	padding: 4px;
+	font-size: 10px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+
+}
+
+/* Category Row Right */
+td.rowpic {
+	color: #000000;
+	background: #292929;
+	border: #cccccc 1px solid;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
+
+/* Recent Topics Row*/
+th {
+	height: 25px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0f0f0;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+}
+
+th.bar {
+	background: #cccccc;
+	border: #cccccc 1px solid;
+	color: #000000; 
+	font-size: 11px; 
+	font-weight : bold;
+	height: 24px;
+}
+
+/* Category Row Left */
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+	height: 25px;
+	padding: 4px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0efef;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+
+}
+
+td.cat, td.catHead, td.catBottom {
+	height: 25px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0efef;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+}
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+
+/* Recent Topics, Row1, Viewforum_Body.tpl */
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+	height: 25px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0f0f0;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+
+}
+
+/* Forum_Body.tpl - Last Column */
+td.row3Right, td.spaceRow {
+	height: 25px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0f0f0;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+}
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle,h1,h2	{
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 120%;
+	color: #000000;
+}
+
+a.maintitle:link   { text-decoration: none; color : #000000; font-size: 18px; }
+a.maintitle:visited { text-decoration: none; color : #000000; font-size: 18px; }
+a.maintitle:hover	{ text-decoration: NONE; color : #000000; font-size: 18px; }
+
+/* General text */
+.gen { font-size : 11px; color : #000000; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #000000; }
+a.gen,a.genmed,a.gensmall { background: transparent; color: #000000; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover { color: #6a0000; text-decoration: none; }
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #000000; }
+a.mainmenu		{ text-decoration: none; color : #000000; }
+a.mainmenu:hover{ text-decoration: none; color : #bbbbbb; }
+
+/* Forum Category Titles */
+.cattitle		{ font-weight: bold; font-size: 11px ; letter-spacing: 0px; color : #000000; }
+a.cattitle		{ text-decoration: none; color : #444444; }
+a.cattitle:hover{ text-decoration: none; color: #f29702; }
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 11px; color : #000000; }
+a.forumlink 	{ text-decoration: none; color : #000000; }
+a.forumlink:hover{ text-decoration: none; color : #6a0000; }
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color: #000000;}
+a.nav			{ text-decoration: none; color: #000000; }
+a.nav:hover		{ text-decoration: none; color: #000000; }
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle { font-weight: bold; font-size: 11px; color: #000000; }
+a.topictitle:link { text-decoration: none; color: #000000; }
+a.topictitle:visited { text-decoration: none; color : #000000; }
+a.topictitle:hover { text-decoration: none; color: #6a0000; }
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name { font-size: 11px; color: #000000;}
+
+/* Location, number of posts, post date etc */
+.postdetails { font-size: 10px; color: #000000; }
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 11px; color : #000000; }
+a.postlink:link	{ text-decoration: none; color : #000000; }
+a.postlink:visited { text-decoration: none; color : #000000; }
+a.postlink:hover { text-decoration: underline; color : #6a0000; }
+
+.quote {
+	background: #ebeadd;
+	border: 1px solid #dbdbdb;
+	font-size: 0.95em;
+	margin: 0.5em 1px 0 25px;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.code {
+	margin: 10px 5px 0 5px;
+	padding: 4px;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #e0e0e0;
+	color: black;
+	background-color: #ebeadd;
+	white-space: normal;
+
+}
+
+input.sub {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+/* The main submit, go and preview buttons */
+input.mainoption {
+	color: #000000;
+	font-size: 11px;
+	font-weight: normal;
+	border-right: 1px solid #A9B8C2;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #A9B8C2;
+	border-left: 1px solid #ffffff;
+	background: #f0f0f0;
+}
+
+/* None-bold submit, go and preview buttons */
+input.liteoption {
+	color: #000000;
+	font-size: 11px;
+	font-weight: normal;
+	border-right: 1px solid #A9B8C2;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #A9B8C2;
+	border-left: 1px solid #ffffff;
+	background: #eeeeee;
+
+}
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)*/
+.helpline {
+	background-color : #eeeeee;
+	border: 1px solid #eeeeee;
+	font-size: 11px;
+	color: #000000;
+	width: 99%;
+}

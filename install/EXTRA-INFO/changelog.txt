@@ -1,0 +1,27 @@
+05/27/2010 - 2.0.8
+
+killigan
+-[04/17/2010] Updated PHP code to 5.3 standards
+-[04/17/2010] Updated Nuke Sentinel to version 2.6.01
+-[04/17/2010] Updated Nuke Evolution to XHTML 1.0 Transitional
+
+SgtLegend
+-[04/17/2010] Updated Nuke Evolution to XHTML 1.0 Transitional
+-[04/17/2010] Updated PHP code to 5.3 standards
+-[04/17/2010] Fixed outbox image link
+-[04/18/2010] Added register globals fix for PHP 5.3 (Thanks Technocrat)
+-[04/18/2010] Updated the installer/upgrade files and display
+-[04/19/2010] Improved load time for global variables
+-[04/21/2010] Upgraded Swift mail to version 4.0.6
+-[04/21/2010] Upgraded HTML Purifier to version 4
+
+Technocrat
+-[04/22/2010] Added speed tweaks to the cache and PHP version compare
+
+Eyecu
+-[04/17/2010] Updated PHP code to 5.3 standards
+-[04/17/2010] Updated Nuke Evolution to XHTML 1.0 Transitional
+
+Wolfstar
+-[04/17/2010] Updated PHP code to 5.3 standards
+-[04/17/2010] Updated Nuke Evolution to XHTML 1.0 Transitional

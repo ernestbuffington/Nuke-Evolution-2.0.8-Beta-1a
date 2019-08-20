@@ -1,0 +1,303 @@
+/* Nuke Evo Installer Stylesheet */
+
+body {
+	margin: 50px 0px 0px 0px;
+	padding: 0px;
+	background: url('images/top_bg.gif');
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	color: #000000;
+}
+
+#install_wrap {
+	width: 990px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#left_wrap {
+	width: 759px;
+	height: auto;
+	float: left;
+}
+
+#right_wrap {
+	width: 231px;
+	height: auto;
+	right: 305px;
+	float: right;
+}
+
+.top_wrap {
+	width: inherit;
+	float: none;
+}
+
+#corner_left {
+	background: url('images/top_left_corner.gif') no-repeat;
+	width: 33px;
+	height: 36px;
+	float: left;
+}
+
+#top_stretch {
+	background: url('images/pre_logo.gif') repeat-x;
+	height: 36px;
+	margin: 0px 0px 0px 33px;
+}
+
+#logo_left {
+	background: url('images/logo_content_left.gif') no-repeat;
+	width: 33px;
+	height: 110px;
+	float: left;
+}
+
+#logo_stretch {
+	background: url('images/logo_content_split.gif') repeat-x;
+	height: 110px;
+	margin: 0px 0px 0px 33px;
+}
+
+#logo {
+	background: url('images/logo.png');
+	width: 313px;
+	height: 96px;
+	float: left;
+}
+
+#main_content {
+	background: url('images/main_content.gif') no-repeat;
+	width: 759px;
+	height: 355px;
+}
+
+#main_content div.mcontent {
+	width: 699px;
+	height: inherit;
+	margin-left: 43px;
+	margin-right: 45px;
+	overflow: auto;
+}
+
+#btm_corner_left {
+	background: url('images/left_corner.gif') no-repeat;
+	width: 43px;
+	height: 74px;
+	float: left;
+}
+
+#btm_stretch {
+	background: url('images/btm_content.gif') repeat-x;
+	height: 74px;
+	margin: 0px 0px 0px 43px;
+}
+
+#install_top {
+	background: url('images/install_top.gif') no-repeat;
+	width: inherit;
+	height: 36px;
+}
+
+#install_title {
+	background: url('images/install_title.gif') no-repeat;
+	width: inherit;
+	height: 28px;
+}
+
+#install_box {
+	background: url('images/install_box.gif') no-repeat;
+	width: inherit;
+	height: 240px;
+}
+
+#install_post_box {
+	background: url('images/right_stretch.gif') no-repeat;
+	width: inherit;
+	height: 220px;
+}
+
+#btm_corner {
+	background: url('images/bottom_corner.gif') no-repeat;
+	width: inherit;
+	height: 51px;
+}
+
+/* Buttons, Nav, Steps */
+#step_wrap {
+	width: 179px;
+	padding: 3px 0px 0px 15px;
+}
+
+.step_box {
+	background: #e4e5e5;
+	border-bottom: #cecfcf 1px solid;
+	color: #696868;
+	font-size: 10px;
+	padding-left: 5px;
+	line-height: 2em;
+	width: inherit;
+	height: 21px;
+	margin-bottom: 1px;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+input.button {
+	background-image: url('images/button.gif');
+	border: #666666 1px solid;
+	color: #000000;
+	font-size: 11px;
+	padding: 2px 4px 2px 3px;
+}
+
+input.button:hover {
+	color: #BC2A4D;
+	cursor: pointer;
+}
+
+select {
+	background: transparent url('images/button.gif');
+	border: #666666 1px solid;
+	color: #000000;
+	font-size: 11px;
+	padding: 2px 4px 2px 4px;
+	outline: 0px;
+}
+
+select:hover {
+	color: #BC2A4D;
+	cursor: pointer;
+}
+
+input.input {
+	background: #efefef url('images/button.gif') repeat-x;
+	border: #666666 1px solid;
+	color: #000000;
+	font-size: 11px;
+	height: 18px;
+	outline: 0px;
+	padding-left: 2px;
+	cursor: pointer;
+}
+
+input.input:hover {
+	color: #BC2A4D;	
+}
+
+textarea {
+	background: #efefef url('images/button.gif') repeat-x;
+	border: #666666 1px solid;
+	color: #000000;
+	font-size: 11px;
+	outline: 0px;
+}
+
+fieldset {
+	margin: 15px 0;
+	padding: 10px;
+	border-top: 1px solid #D7D7D7;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #D7D7D7;
+	background-color: #FFFFFF;
+	position: relative;
+	outline: 0px;
+}
+
+* html fieldset {
+	padding: 0 10px 5px 10px;
+}
+
+legend {
+	padding: 1px 0;
+	font-family: Tahoma,arial,Verdana,Sans-serif;
+	font-size: .9em;
+	font-weight: bold;
+	color: #115098;
+	margin-top: -.4em;
+	position: relative;
+	text-transform: none;
+	line-height: 1.2em;
+	top: 0;
+	vertical-align: middle;
+}
+
+/* Hide from macIE \*/
+legend { top: -1.2em; }
+/* end */
+
+* html legend {
+	margin: 0 0 -10px -7px;
+	line-height: 1em;
+	font-size: .85em;
+}
+
+dl {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.00em;
+}
+	
+dt {
+	float: left;
+	width: auto;
+}
+
+dd { color: #666666;}
+dd + dd { padding-top: 5px;}
+dt span { padding: 0 5px 0 0;}
+
+dt label {
+	font-size: 1.00em;
+	text-align: left;
+	font-weight: bold;
+	color: #4A5A73;
+}
+
+dd label {
+	font-size: 1.00em;
+	white-space: nowrap;
+	margin: 0 10px 0 0;
+	color: #4A5A73;
+}
+
+html>body dd label input { vertical-align: text-bottom;}	/* Tweak for Moz to align checkboxes/radio buttons nicely */
+
+fieldset dl {
+	margin-bottom: 10px;
+	font-size: 0.85em;
+}
+
+fieldset dt {
+	width: 45%;
+	text-align: left;
+	border: none;
+	border-right: 1px solid #CCCCCC;
+	padding-top: 3px;
+	outline: 0px;
+}
+
+fieldset dd {
+	margin: 0 0 0 45%;
+	padding: 0 0 0 5px;
+	border: none;
+	border-left: 1px solid #CCCCCC;
+	vertical-align: top;
+	font-size: 1.00em;
+	outline: 0px;
+}
+
+/* Hover highlights for form rows */
+fieldset dl:hover dt, fieldset dl:hover dd {
+	border-color: #666666;
+}
+
+fieldset dl:hover dt label {
+	color: #000000;
+}
+
+fieldset dl dd label:hover {
+	color: #BC2A4D;
+}
